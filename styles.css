@@ -31,6 +31,8 @@ div#content{float:left; width:500px}
 div#navigation{float:right;width:180px}
 div#extra{float:right; clear:right; width:200px}
 div#footer{clear:both; width:100%}
+div#hidden{visibility: hidden; }
+
 
 .alignleft {
 	float: left;
@@ -40,8 +42,5 @@ div#footer{clear:both; width:100%}
   margin:10px 10px 10px
 }
 .wide{
-	width:100%
-}
-a:hidden {
-	color: var(--moyen);
+	width:700px;
 }
